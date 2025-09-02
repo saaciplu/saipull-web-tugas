@@ -1,41 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KONTAK SAIFUL</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak Saiful</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+    }
+    header, nav, footer {
+      background: #4e73df;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    fieldset {
+      border: 2px solid #4e73df;
+      border-radius: 8px;
+      padding: 15px;
+      background: #fff;
+      max-width: 400px;
+      margin: auto;
+    }
+    input[type="text"], input[type="submit"] {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    input[type="submit"] {
+      background: #4e73df;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+    input[type="submit"]:hover {
+      background: #2e59d9;
+    }
+  </style>
 </head>
 <body>
-   <h1>halaman kontak</h1>
-   
-<a href="index.html"> home</a>|
-<a href="about.html">about</a>|
-<a href="kontak.html">kontak</a>|
-<hr>
-<br>
-<form action=""></form>
-    <fieldset>
-        <legend>TINGGALKAN PESAN DIBAWAH INI</legend>
- <P>
-    <label for="">NAMA</label>
-    <input type="text" name="Nama" id="Nabillah">
- </P>       
+  <header>
+    <h1>Halaman Kontak</h1>
+  </header>
 
- <P>
-    <label for="">NOMER WA</label>
-    <input type="text" name="Nomer Wa" id="08564465328">
- </P>       
+  <nav>
+    <a href="index.html">Home</a>|
+    <a href="about.html">About</a>|
+    <a href="kontak.html">Kontak</a>
+  </nav>
 
- <P>
-    <label for="">PESAN</label>
-    <input type="text" name="Pesan" id="hai">
- </P>       
-<p>
-   <input type="submit" name="submit" value="kirim" />
-</p>
+  <main>
+    <form>
+      <fieldset>
+        <legend>Tinggalkan Pesan</legend>
+        <p>
+          <label for="nama">Nama</label><br>
+          <input type="text" id="nama" name="nama" required>
+        </p>
+        <p>
+          <label for="wa">Nomor WA</label><br>
+          <input type="text" id="wa" name="wa" required>
+        </p>
+        <p>
+          <label for="pesan">Pesan</label><br>
+          <input type="text" id="pesan" name="pesan" required>
+        </p>
+        <p>
+          <input type="submit" value="Kirim">
+        </p>
+      </fieldset>
+    </form>
+  </main>
 
-    </fieldset>
-  </form>
+  <footer>
+    <p>&copy; 2024 | M. Saiful Anam .R XI TKJ 1</p>
+  </footer>
 </body>
-
 </html>
