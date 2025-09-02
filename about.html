@@ -1,58 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Saiful </title>
-  </head>
-  <body style="background-color: rgb(193, 164, 219);">
-    <h1>halaman about</h1>
-<header style="background-color: azure;">
-  <h1>halaman about</h1>
-</header>
-    <h1>SEKOLAH KU</h1>
-    
-    <nav>
-      <a href="index.html">home</a>| 
-      <a href="about.html">about</a>| 
-      <a href="kontak.html">kontak</a>|
-    </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Saiful</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e8e4f5;
+      margin: 0;
+    }
+    header, nav, footer {
+      background: #4e73df;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    article {
+      background: #fff;
+      margin: 15px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    img {
+      width: 300px;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Halaman About</h1>
+  </header>
 
+  <nav>
+    <a href="index.html">Home</a>|
+    <a href="about.html">About</a>|
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <main>
+    <h2>Sekolah Ku</h2>
     <ol type="a">
-      <li>Siapa kita <a href="#siapa kita">ke siapa kita</a></li>
-      <li>tujuan kita <a href="#tujuan kita">ke tujuan kita</a></li>
-      <li>alamat kita <a href="#alamat kita">ke alamat kita</a></li>
+      <li><a href="#siapa">Siapa kita</a></li>
+      <li><a href="#tujuan">Tujuan kita</a></li>
+      <li><a href="#alamat">Alamat kita</a></li>
     </ol>
-<article style="background-color:silver">
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consequatur esse tempora ut atque, eligendi, reiciendis architecto harum voluptates possimus saepe iure fugiat dolor ad totam quaerat? Quaerat culpa quisquam
-    exercitationem id eligendi reiciendis labore dolor suscipit natus ipsa maxime ut aut, nihil odit nesciunt deserunt molestiae adipisci voluptas aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, dolor? Distinctio
-    sapiente vel dolores ea mollitia quasi illo iste id minus? Nam ex perspiciatis modi nostrum quae molestias nemo, provident praesentium sapiente, sequi mollitia, vero quasi consequatur necessitatibus corrupti voluptas repudiandae quam
-    esse dignissimos cum! Corporis, sapiente fuga! Cumque, sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia totam necessitatibus aperiam reprehenderit alias amet aliquid sint? Temporibus vitae soluta possimus
-    dignissimos odit facere odio officiis dicta dolore assumenda nesciunt quae quam in illo laudantium tempore molestias aut iure, hic veniam, nam animi mollitia numquam? Fugiat in distinctio a adipisci.
-</p>
-</article >
-    <h2 id="siapa kita">siapa kita</h2>
-    <img src="./img/kel.jpg" alt="" />
-<article style="background-color: silver;">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dignissimos, soluta unde error aspernatur vel fugit, totam, accusantium molestias obcaecati reprehenderit ducimus iste labore? Amet inventore repellat quas ipsa
-    consectetur, earum iure ea similique, eligendi eos neque, porro corrupti explicabo velit tempore illo fuga necessitatibus labore asperiores. Incidunt, facilis maiores.
-</article>
-    <h2 id="tujuan kita">tujuan kita</h2>
-    <img src="./img/kucing.jpg" alt="" />
-<article style="background-color: silver;">
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio magni reprehenderit repellat aperiam vero consequuntur ipsum placeat maxime quas ipsa eaque non, tempore id nesciunt aliquam quae amet incidunt quo accusamus maiores
-    inventore, atque, dicta temporibus. Dolores velit amet magnam ipsam provident, est tempora! Soluta impedit nostrum ratione provident quos.
-</article>
-    <h2 id="alamat kita">alamat kita</h2>
-    <img src="./img/bunga.jpg" alt="" />
-<article style="background-color: silver;">
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, iusto aspernatur, repellendus vel eos tempora velit, eum voluptate veritatis maiores dignissimos libero odio ea perspiciatis id officia commodi quo at expedita nam
-    consequuntur quibusdam natus. Harum repellendus nemo eveniet reprehenderit quis quibusdam. Officiis, eius perspiciatis placeat tempore quasi fugit inventore?
-</article>
-<footer style="background-color: rgb(207, 170, 170);">
-  <h3>M. Saiful Anam .R XI TKJ 1</h3>
-</footer>
-  </body>
-</html>
 
+    <article id="siapa">
+      <h3>Siapa Kita</h3>
+      <img src="./img/kel.jpg" alt="Foto kelompok">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+    </article>
+
+    <article id="tujuan">
+      <h3>Tujuan Kita</h3>
+      <img src="./img/kucing.jpg" alt="Foto tujuan">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+    </article>
+
+    <article id="alamat">
+      <h3>Alamat Kita</h3>
+      <img src="./img/bunga.jpg" alt="Foto alamat">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>M. Saiful Anam .R XI TKJ 1</p>
+  </footer>
+</body>
+</html>
